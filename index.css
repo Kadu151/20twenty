@@ -1,0 +1,75 @@
+  /* Navbar claro */
+#navbar {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Navbar escuro */
+#navbar.dark-mode {
+  color: #111;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+#navbar.dark-mode a {
+  color: #111;
+}
+#navbar.dark-mode a:hover {
+  color: #000;
+}
+#navbar h1 {
+  color: white; /* cor padrão */
+  transition: color 0.3s;
+}
+
+#navbar.dark-mode h1 {
+  color: #111; /* cor no modo dark-mode */
+}
+
+    body {
+      font-family: 'Chau Philomene One', sans-serif;
+    }
+
+    /* Efeito parallax só em telas maiores */
+    @media(min-width: 768px) {
+      .parallax-bg {
+        background-attachment: fixed;
+      }
+    }
+
+    /* Forçar hero ocupar toda a viewport */
+    .parallax-bg {
+      background-image: url('/assets/img/teste.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .animate-on-scroll {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .fade-slide-in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .pulse-hover:hover {
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+    html {
+  scroll-behavior: smooth;
+}

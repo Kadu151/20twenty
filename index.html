@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TWENTY | Streetwear</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="/style/index.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white">
+
+    <!-- Navbar -->
+    <header id="navbar"
+        class="fixed top-0 left-0 w-full z-50 bg-white/10 dark:bg-black/10 backdrop-blur-lg border-b border-white/10 dark:border-gray-700 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl md:text-4xl font-extrabold tracking-widest select-none">TWENTY</h1>
+
+            <!-- Botão do menu mobile -->
+            <button id="menuToggle" class="md:hidden text-gray-200 hover:text-white focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+
+            <!-- Menu desktop -->
+            <nav class="hidden md:flex space-x-10 text-lg font-medium text-gray-200">
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Moletons</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Calças</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Camisas</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Shorts</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Tênis</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Acessórios</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Carrinho</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Compras</a>
+            </nav>
+        </div>
+
+        <!-- Menu mobile -->
+        <div id="mobileMenu" class="md:hidden hidden px-6 pb-4">
+            <nav class="flex flex-col space-y-4 text-lg font-medium text-gray-200">
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Moletons</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Calças</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Camisas</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Shorts</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Tênis</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Acessórios</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Carrinho</a>
+                <a href="/template/contrucao.html" class="hover:text-white transition duration-300">Compras</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO com parallax -->
+    <section class="relative parallax-bg">
+        <!-- Camada escura para contraste -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        <!-- Conteúdo central -->
+        <div class="relative z-10 flex items-center justify-center h-full px-4 text-center" style="height: 100vh;">
+            <div>
+                <!--Logo da marca-->
+                <img src="/assets/img/ChatGPT Image 29 de jul. de 2025, 17_44_29.png" alt="Logo da Empresa"
+                    class="mx-auto w-32 sm:w-40 md:w-48 lg:w-56" />
+
+                <h1 class="text-white text-5xl md:text-7xl font-extrabold uppercase drop-shadow-xl mb-6 tracking-tight">
+                    Coleção 2025
+                </h1>
+                <p class="text-white text-lg md:text-2xl mb-8 leading-relaxed drop-shadow-md">
+                    Peças autênticas, essência urbana.
+                </p>
+                <a href="/template/contrucao.html"
+                    class="inline-block bg-white text-black px-8 py-3 md:px-10 md:py-4 rounded-full text-base md:text-lg font-bold tracking-widest hover:bg-gray-200 transition transform hover:scale-105">
+                    Ver Coleção
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="py-24 px-6 md:px-16 relative overflow-hidden" style="
+    background-image: url('/assets/img/teste.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  ">
+        <!-- camada blur -->
+        <div class="absolute inset-0" style="
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      background-color: rgba(255, 255, 255, 0.15);
+      z-index: 0;
+      pointer-events: none;
+    "></div>
+
+
+
+        <!-- Conteúdo Geral -->
+        <div class="relative z-10 space-y-32">
+            <!-- Seção Moletons -->
+            <div>
+
+                <h3
+                    class="text-4xl md:text-5xl font-bold text-center mt-12 mb-10 uppercase tracking-wider text-gray-900 dark:text-white">
+                    Moletons
+                </h3>
+                <!-- Botão Ver Mais -->
+                <div class="mb-10 text-center">
+                    <a href="/template/contrucao.html"
+                        class="inline-block px-6 py-3 text-white bg-gray-900 dark:bg-white dark:text-black rounded-full font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300">
+                        Ver Mais
+                    </a>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                        <!-- Item 1 -->
+                    <div
+                        class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                        <img src="/assets/img/moletom-tie-dye-masculino-streetwear-oversized-com-capuz.jpg"
+                            alt="Moletom Oversized" class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90"
+                            loading="lazy" />
+                        <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Moletom Oversized</h4>
+                        <div class="flex items-center justify-between">
+                            <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 249,90</p>
+                            <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Comprar"></i>
+                                <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Adicionar ao carrinho"></i>
+                                <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Visualizar detalhes"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- Item 2 -->
+                    <div
+                        class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                        <img src="/assets/img/9f3f33e2858f6dd6486e68f5a2fa8b39.jpg_720x720q80.jpg"
+                            alt="Camiseta Estampada" class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90"
+                            loading="lazy" />
+                        <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Moletom Oversized</h4>
+                        <div class="flex items-center justify-between">
+                            <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 129,90</p>
+                            <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Comprar"></i>
+                                <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Adicionar ao carrinho"></i>
+                                <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Visualizar detalhes"></i>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Item 3 -->
+                    <div
+                        class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                        <img src="/assets/img/moletom-tie-dye-oversized-manchas-de-tinta-masculino-plus-size.jpg"
+                            alt="Calça Cargo" class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90"
+                            loading="lazy" />
+                        <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Moletom Oversized</h4>
+                        <div class="flex items-center justify-between">
+                            <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 199,90</p>
+                            <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Comprar"></i>
+                                <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Adicionar ao carrinho"></i>
+                                <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                    title="Visualizar detalhes"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Seção Camisetas -->
+                <div>
+                    <h3
+                        class="text-4xl md:text-5xl font-bold text-center mt-12 mb-10 uppercase tracking-wider text-gray-900 dark:text-white">
+                        Camisetas
+                    </h3>
+
+                    <!-- Botão Ver Mais -->
+                    <div class="mb-10 text-center">
+                        <a href="/template/contrucao.html"
+                            class="inline-block px-6 py-3 text-white bg-gray-900 dark:bg-white dark:text-black rounded-full font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300">
+                            Ver Mais
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                        <!-- Item 1 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/camiseta 1.jpg" alt="Moletom Oversized"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Camiseta Streetwear
+                            </h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 249,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/camiseta 2.jpg" alt="Camiseta Estampada"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Camiseta Streetwear
+                            </h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 129,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/camiseta 3.webp" alt="Calça Cargo"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Camiseta Streetwear
+                            </h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 199,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seção Calças -->
+                <div>
+                    <h3
+                        class="text-4xl md:text-5xl font-bold text-center mt-12 mb-10 uppercase tracking-wider text-gray-900 dark:text-white">
+                        Calças
+                    </h3>
+                    <!-- Botão Ver Mais -->
+                    <div class="mb-10 text-center">
+                        <a href="/template/contrucao.html"
+                            class="inline-block px-6 py-3 text-white bg-gray-900 dark:bg-white dark:text-black rounded-full font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300">
+                            Ver Mais
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                        <!-- Item 1 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/calca1.jpeg" alt="Calça Cargo"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Calça Cargo</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 249,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/calca2.jpg" alt="Calça Cargo"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Calça Cargo</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 129,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/calca3.jpg" alt="Calça Cargo"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Calça Cargo</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 199,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Seção Shorts -->
+                <div>
+                    <h3
+                        class="text-4xl md:text-5xl font-bold text-center mt-12 mb-10 uppercase tracking-wider text-gray-900 dark:text-white">
+                        Shorts
+                    </h3>
+                    <!-- Botão Ver Mais -->
+                    <div class="mb-10 text-center">
+                        <a href="/template/contrucao.html"
+                            class="inline-block px-6 py-3 text-white bg-gray-900 dark:bg-white dark:text-black rounded-full font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300">
+                            Ver Mais
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                        <!-- Item 1 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/short1.webp" alt="Short"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Short</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 249,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/short2.webp" alt="Short"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Short</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 129,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/short3.webp" alt="Short"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Short</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 199,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Seção Tênis -->
+                <div>
+                    <h3
+                        class="text-4xl md:text-5xl font-bold text-center mt-12 mb-10 uppercase tracking-wider text-gray-900 dark:text-white">
+                        Tenis
+                    </h3>
+                    <!-- Botão Ver Mais -->
+                    <div class="mb-10 text-center">
+                        <a href="/template/contrucao.html"
+                            class="inline-block px-6 py-3 text-white bg-gray-900 dark:bg-white dark:text-black rounded-full font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300">
+                            Ver Mais
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                        <!-- Item 1 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/tenis1.png" alt="Tenis"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Tenis</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 249,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/tenis2.png" alt="Tenis"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Tenis</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 129,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/tenis3.png" alt="Tenis"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Tenis</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 199,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Seção Acessórios -->
+                <div>
+                    <h3
+                        class="text-4xl md:text-5xl font-bold text-center mt-12 mb-10 uppercase tracking-wider text-gray-900 dark:text-white">
+                        Acessórios
+                    </h3>
+                    <!-- Botão Ver Mais -->
+                    <div class="mb-10 text-center">
+                        <a href="/template/contrucao.html"
+                            class="inline-block px-6 py-3 text-white bg-gray-900 dark:bg-white dark:text-black rounded-full font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-300 transition duration-300">
+                            Ver Mais
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+                        <!-- Item 1 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/acessorio1.webp" alt="Relógio"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Relógio</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 249,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/acessorio2.webp" alt="Relógio"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Relógio</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 129,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div
+                            class="bg-white bg-opacity-70 dark:bg-gray-800 dark:bg-opacity-70 p-6 rounded-2xl shadow-lg transform hover:scale-105 hover:rotate-1 transition duration-300 hover:shadow-2xl group">
+                            <img src="/assets/img/acessorio3.webp" alt="Relógio"
+                                class="w-full h-auto rounded-xl mb-6 group-hover:opacity-90" loading="lazy" />
+                            <h4 class="text-2xl font-semibold mb-2 text-gray-900 dark:text-white">Relógio</h4>
+                            <div class="flex items-center justify-between">
+                                <p class="text-gray-700 dark:text-gray-300 font-semibold">R$ 199,90</p>
+                                <div class="flex gap-3 text-gray-600 dark:text-gray-300 text-xl">
+                                    <i class="fas fa-shopping-cart cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Comprar"></i>
+                                    <i class="fas fa-credit-card cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Adicionar ao carrinho"></i>
+                                    <i class="fas fa-search cursor-pointer hover:text-black dark:hover:text-white"
+                                        title="Visualizar detalhes"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <!-- Footer -->
+<footer class="bg-black text-gray-400 py-12">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0">
+      
+      <!-- Seções do Footer -->
+      <div class="flex flex-col md:flex-row gap-12 text-center md:text-left">
+        <!-- Trabalhe Conosco -->
+        <div>
+          <h4 class="text-white font-semibold mb-4 uppercase">Trabalhe Conosco</h4>
+          <ul class="space-y-2">
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Vagas</a></li>
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Envie seu currículo</a></li>
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Benefícios</a></li>
+          </ul>
+        </div>
+
+        <!-- Lojas -->
+        <div>
+          <h4 class="text-white font-semibold mb-4 uppercase">Lojas</h4>
+          <ul class="space-y-2">
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">São Paulo</a></li>
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Rio de Janeiro</a></li>
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Curitiba</a></li>
+          </ul>
+        </div>
+
+        <!-- Sobre a Empresa -->
+        <div>
+          <h4 class="text-white font-semibold mb-4 uppercase">Sobre a Empresa</h4>
+          <ul class="space-y-2">
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Nossa História</a></li>
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Missão e Valores</a></li>
+            <li><a href="/template/contrucao.html" class="hover:text-gray-300 transition">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Direitos e Redes Sociais -->
+      <div class="flex flex-col items-center md:items-end space-y-6">
+        <p class="text-base">&copy; 2025 TWENTY. Todos os direitos reservados.</p>
+        <div class="flex space-x-6 text-white text-2xl">
+          <a href="/template/contrucao.html" class="hover:text-gray-300 transition" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/template/contrucao.html" class="hover:text-gray-300 transition" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="/template/contrucao.html" class="hover:text-gray-300 transition" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="/template/contrucao.html" class="hover:text-gray-300 transition" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="/js/style.js"></script>
+</body>
+
+</html>
