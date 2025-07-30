@@ -39,7 +39,7 @@
 
     /* Forçar hero ocupar toda a viewport */
     .parallax-bg {
-      background-image: url('/assets/img/teste.png');
+      background-image: url('teste.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
